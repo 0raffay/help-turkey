@@ -1,0 +1,20 @@
+:root {
+    --ff-primary: 'Poppins', sans-serif;
+
+    --clr-primary: #DD1E25;
+    --clr-primary-300: rgba(221, 30, 37, 0.08);
+
+    --fc-primary: #000;
+    --fc-secondary: #333;
+    --fc-accent: #FFF;
+
+
+    --fs-hero-heading: 60px;
+
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-25: 25px;
+    --fs-40: 40px;
+}

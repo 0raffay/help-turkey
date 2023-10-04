@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1400px) {
+    .donationWrapper {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-content: center;
+
+        padding-block: 50px;
+    }
+
+    .donationWrapper .img__wrap {
+        text-align: center;
+    }
+
+    .donation__formHeader {
+        text-align: center;
+    }
+
+    .donation__formHeader p {
+        margin-inline: auto;
+    }
+
+
+    .donation__formContainer {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .donation__imgSteps {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .low-opacity::after,
+    .low-opacity::before {
+        display: none;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    br {
+        display: none;
+    }
+
+    .aboutus__section .section__label {
+        margin-inline: auto;
+    }
+
+    footer * {
+        text-align: center;
+    }
+
+    .topFooter {
+        padding-bottom: 20px;
+    }
+
+    .bottomFooter {
+        flex-direction: column;
+    }
+
+    .home__hero {
+        height: auto;
+        padding: 100px 0;
+    }
+
+    .hero__text {
+        text-align: center;
+    }
+
+    .aboutus__text {
+        text-align: center;
+    }
+
+    .donateNowForm>div {
+        text-align: center;
+    }
+
+    .hero__sectionMain {
+        max-width: 95%;
+        border-left: 1px solid #FFF;
+        border-right: 1px solid #FFF;
+
+        padding-bottom: 100px;
+        padding-top: 100px;
+        height: auto;
+    }
+
+    .iframeWrapper .contactInfo {
+        width: auto;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+    }
+
+    .hero__section::before {
+        height: 60%;
+    }
+
+    .formGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .span__two {
+        grid-column: unset;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    :root {
+        --fs-hero-heading: 50px;
+    }
+    .formBody {
+        padding-inline: 25px;
+        padding-block: 40px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .subscriptionCheck label {
+        width: 150px;
+    }
+}
